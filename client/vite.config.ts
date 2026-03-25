@@ -10,7 +10,7 @@ export default defineConfig({
   plugins: [
     react(),
     runtimeErrorOverlay(),
-    metaImagesPlugin()
+    metaImagesPlugin(),
     tailwindcss(),
     
     ...(process.env.NODE_ENV !== "production" &&
